@@ -43,7 +43,7 @@ The `qualigpt` skill re-implements, as model instructions, the prompt design, se
 > Zhang, H., Wu, C., Xie, J., Kim, C., & Carroll, J. M. (2023). *Redefining Qualitative Analysis in the AI Era: Utilizing ChatGPT for Efficient Thematic Analysis.* arXiv:2309.10771.
 
 ### James Beebe
-The `beebe-policy-framing` skill operationalizes the research design of Dr. James Beebe (1943–2024) — anthropologist, USAID Foreign Service Officer, and pioneer of rapid qualitative methods — from his unfinished study *Race, Politics, and U.S. Foreign Assistance to South Africa during the Transition to Majority Rule* (Gonzaga University, 2011-), which applied the anthropology of public policy to a contested-policy corpus he had assembled as both participant and researcher. If you use it, please cite:
+The `beebe-policy-framing` skill operationalizes the research design of Dr. James Beebe (1943–2024) — anthropologist, USAID Foreign Service Officer, and pioneer of rapid qualitative methods — from his unfinished study *Race, Politics, and U.S. Foreign Assistance to South Africa during the Transition to Majority Rule* (Gonzaga University, unpublished, started 2011), which applied the anthropology of public policy to a contested-policy corpus he had assembled as both participant and researcher. If you use it, please cite:
 
 > Beebe, J. (2001). *Rapid Assessment Process: An Introduction.* Walnut Creek, CA: AltaMira Press.
 >
