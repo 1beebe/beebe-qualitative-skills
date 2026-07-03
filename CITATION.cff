@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use these skills in research, please cite this repository along with the QualiGPT papers (for the qualigpt skill) and James Beebe's methodological works (for the beebe-policy-framing skill). See README.md for full references."
+title: "Beebe Qualitative Skills: QualiGPT thematic analysis and Beebe policy-framing analysis as Claude Code skills"
+type: software
+authors:
+  - family-names: Beebe
+    given-names: Ligaya
+date-released: "2026-07-02"
+license: MIT
+repository-code: "https://github.com/1beebe/beebe-qualitative-skills"
+references:
+  - type: article
+    title: "QualiGPT: GPT as an easy-to-use tool for qualitative coding"
+    authors:
+      - family-names: Zhang
+        given-names: He
+      - family-names: Wu
+        given-names: Chuhao
+      - family-names: Xie
+        given-names: Jingyi
+      - family-names: Rubino
+        given-names: Fiona
+      - family-names: Graver
+        given-names: Sydney
+      - family-names: Kim
+        given-names: ChanMin
+      - family-names: Carroll
+        given-names: John M.
+      - family-names: Cai
+        given-names: Jie
+    year: 2023
+    identifiers:
+      - type: other
+        value: "arXiv:2310.07061"
+  - type: book
+    title: "Rapid Assessment Process: An Introduction"
+    authors:
+      - family-names: Beebe
+        given-names: James
+    year: 2001
+    publisher:
+      name: AltaMira Press
+  - type: book
+    title: "Rapid Qualitative Inquiry: A Field Guide to Team-Based Assessment"
+    authors:
+      - family-names: Beebe
+        given-names: James
+    year: 2014
+    edition: "2nd"
+    publisher:
+      name: Rowman & Littlefield
