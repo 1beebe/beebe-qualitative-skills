@@ -9,7 +9,11 @@ This skill operationalizes the research methodology of Dr. James Beebe (*Rapid A
 
 ## Requirements
 
-**A study codebook is required before coding.** It defines the actors, activities, venues, frame seeds, and timeline anchors (see `codebook-template.md` in this skill's folder). If the user has no codebook, draft one from their research design and corpus, then get their explicit approval before coding. Never code against an unapproved codebook.
+**A study codebook is required before coding.** It defines the actors, activities, venues, frame seeds, and timeline anchors (see `codebook-template.md` in this skill's folder).
+
+**If the user has no codebook, do not draft one from intuition — surface it from the data:** first run the `qualigpt` skill inductively on the corpus (or a pilot sample), then work with the researcher to convert the resulting themes into frame families, the attributed speakers into actor codes, and the contested programs into activity codes, using the mapping worksheet in the template. Get the researcher's explicit approval of the resulting codebook before framing analysis begins. Never code against an unapproved codebook.
+
+This inductive→deductive sequence is part of the methodology, and it continues across runs: `[PROPOSED]` codes emitted by each framing pass are the inductive channel feeding codebook revisions.
 
 ## Core principles
 

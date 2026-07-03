@@ -9,6 +9,17 @@ Two [Claude Code](https://claude.com/claude-code) skills for LLM-assisted qualit
 
 Both skills treat LLM output as **first-pass coding for a researcher to verify**, not a replacement for researcher judgment. Quotes are always verbatim; counts are real tallies; codebook extensions are proposed, never silently applied.
 
+## How the two skills work together
+
+They are stages of one iterative loop, not alternatives:
+
+1. **Inductive discovery** — run `qualigpt` on the corpus (or a pilot sample). Its themes, quotes, and source tallies surface what the data actually contains.
+2. **Codebook curation** — the researcher converts the inductive themes into the study codebook: recurring themes become frame families, named speakers become actor codes, contested programs become activity codes. The codebook template has a worksheet for this mapping.
+3. **Deductive framing analysis** — run `beebe-policy-framing` against the approved codebook to produce attributed statements, the metaphor register, and frame-evolution tables.
+4. **Feedback** — the framing run emits `[PROPOSED]` frames/actors/activities it found beyond the codebook; the researcher approves or rejects them, and the next pass (or the next batch of documents) runs against the revised codebook.
+
+This mirrors standard qualitative practice — open coding before focused coding — and Beebe's own iterative principle that analysis begins during data collection, with each pass sharpening the instrument for the next.
+
 ## Install
 
 Copy the skill folders into your Claude Code skills directory:

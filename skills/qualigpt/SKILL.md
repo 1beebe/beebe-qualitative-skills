@@ -42,6 +42,10 @@ Rules for faithful application:
    - `raw_response.txt` — the full pipe-delimited table(s) with `**********` markers, mirroring QualiGPT's raw output format
 5. Report the top themes to the user in chat with the table.
 
+## Feeding a codebook (bridge to beebe-policy-framing)
+
+An inductive qualigpt run is the recommended first stage before deductive analysis with the `beebe-policy-framing` skill: its theme table is the raw material for that skill's codebook (themes → frame families; attributed speakers → actor codes; contested programs → activity codes). When the user's goal is framing/metaphor analysis, offer this two-stage path rather than asking them to invent a codebook cold.
+
 ## Limitations to disclose
 
 Per the QualiGPT paper: LLM-assisted coding is a first-pass aid, not a replacement for researcher judgment. Recommend the researcher (a) verify quotes against sources, (b) review theme boundaries, and (c) treat counts as approximate guides for salience. Note any documents that contributed little signal (e.g., forms, boilerplate). If documents duplicate one another, flag it — duplicates inflate source counts.

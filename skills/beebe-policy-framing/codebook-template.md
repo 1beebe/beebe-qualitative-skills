@@ -26,8 +26,16 @@ Aim for the named individuals who made statements — typically 10–20. Include
 *(Split V-PRESS by country/outlet if the debate crosses borders.)*
 
 ## D. Frame families (seed set)
-Start from the frames visible in your pilot documents; 5–10 seeds is typical. Give each an example surface form.
+**Seed these from an inductive `qualigpt` run on your corpus**, not from intuition: run the thematic analysis first, then convert its themes into frames here. 5–10 seeds is typical. Give each an example surface form (a verbatim quote from the run's theme table is ideal).
 
+### D.1 Theme → frame mapping worksheet
+| qualigpt theme (from inductive run) | Becomes frame? | Frame code | Notes (or: actor/activity/context instead) |
+|---|---|---|---|
+| | | | |
+
+*Not every theme is a frame. Themes about **who** map to actor codes (B); themes about **which program** map to activity codes (A); themes about **how events are characterized** become frame families below. Themes that are pure context (historical background) map to timeline anchors (G).*
+
+### D.2 Frame families
 | Code | Frame | Example surface forms |
 |---|---|---|
 | F-01 | | |
