@@ -59,6 +59,13 @@ The skill's theoretical framework follows the sources his proposal specified:
 
 This repository is maintained by Ligaya Beebe, who is completing her father's study. The skills are shared so that other researchers can put these methods to use.
 
+## Related projects
+
+This repo is one piece of a larger system for turning a physical archive into a coded, citable corpus:
+
+- **[Archive Intelligence](https://github.com/1beebe/document-archivist)** — the intake pipeline. A MindStudio agent that receives scanned documents by email, extracts and cleans OCR text, generates structured metadata, and indexes everything to a Google Sheet. It feeds the corpus that these skills analyze — `qualigpt` and `beebe-policy-framing` pick up where Archive Intelligence's clean text and metadata leave off.
+- **[lakoff-lens](https://github.com/1beebe/lakoff-lens)** — the first attempt. Built in January 2026, one of the first MindStudio agents Ligaya Beebe made: an AI workflow analyzing political text for sentiment and metaphorical framing, deliberately aimed at her father's methodology from the start. It took another five months of building skill to reach Archive Intelligence and, in turn, `beebe-policy-framing` — the version actually capable of running his method on his own archive.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). The QualiGPT methodology belongs to its authors; James Beebe's methodology is shared here with the intent that it be used, cited, and extended.
