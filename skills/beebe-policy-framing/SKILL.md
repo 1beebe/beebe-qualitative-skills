@@ -18,7 +18,7 @@ This inductive→deductive sequence is part of the methodology, and it continues
 ## Core principles
 
 1. **The field is multi-sited** (Wedel et al.): treat internal documents, press, hearings, investigation reports, and interviews as distinct venues; code the venue of every item. Actors have varying institutional leverage across sites.
-2. **Metaphors are conceptual, not decorative** (Lakoff): beneath each surface phrase, code the underlying mapping in CAPS (e.g., DEBATE IS WAR, PROGRAM IS FACADE, EXCLUSION IS FREEZING).
+2. **Metaphors are conceptual, not decorative** (Lakoff): beneath each surface phrase, code the underlying mapping in CAPS (e.g., DEBATE IS WAR, PROJECT IS JOURNEY, INSTITUTION IS SICK BODY).
 3. **Metaphors are analyzed in stages** (Schlesinger & Lau): stage 1 — what does the metaphor assert about its target? stage 2 — what policy conclusion does it invite the audience to accept?
 4. **Every statement is attributed**: named speaker, role, date, venue. The unit of analysis is the framing act, not the aggregate theme.
 5. **Positionality is data**: if the researcher (or their close associates) authored corpus documents, those passages are flagged, collected for reflexive review, and — per the researcher's decision — either analyzed like any actor's or bracketed. Watch for the researcher's own analytic vocabulary; reflexivity extends to it.
