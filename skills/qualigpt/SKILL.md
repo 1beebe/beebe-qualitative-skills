@@ -12,9 +12,9 @@ This skill replicates the methodology of QualiGPT (Zhang et al., https://github.
 QualiGPT automates the *coding* step of qualitative analysis: identifying key themes in a dataset, describing them, and grounding each theme in verbatim quotes with a count of how many participants/sources support it. It follows this pipeline:
 
 1. **Ingest** data (.docx, .xlsx, .csv, .txt). For tabular data, expect a header row like `Speaker | Content`.
-2. **Specify dataset type** — interview, focus group, or social media posts (extend to "archival documents" for document corpora). The prompt wording adapts to the type.
+2. **Determine dataset type** — interview, focus group, social media posts, or archival documents. Infer from context if obvious (e.g., the user says "these are my interview transcripts"); otherwise ask.
 3. **Specify number of themes** N (QualiGPT default: 10, range 1–20). Ask the user or default to 10.
-4. **Choose coding mode**: inductive (themes emerge from data — default) or deductive (user supplies a codebook; themes must map to it).
+4. **Ask the user to choose coding mode before analyzing**, unless they've already made it clear: **inductive** (themes emerge from data — default if they have no codebook or don't state a preference) or **deductive** (they supply a codebook; themes must map to it). Skip the question only if the user has already handed you a codebook, named specific themes to code for, or otherwise unambiguously signaled deductive intent — don't ask a redundant question, but don't silently assume inductive when a codebook or a preference is on the table.
 5. **Segment** if the corpus exceeds the context that can be carefully analyzed in one pass (original: ~3,800 tokens per segment, split on sentence boundaries, never mid-sentence). Analyze each segment separately.
 6. **Consolidate**: if multiple segments were analyzed, merge all segment-level theme tables and re-analyze the merged responses to produce one final consolidated theme table (deduplicate overlapping themes, re-tally counts).
 7. **Export** results as .csv (parse the pipe-delimited table) and a human-readable report.
